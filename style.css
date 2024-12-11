@@ -1,0 +1,110 @@
+body{
+    background: #adb0b1;
+}
+
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+   
+
+}
+
+.navbar{
+background-color: black;
+
+}
+.header{
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+}
+body{
+    background-color: #83979f;
+    padding: 10px;
+
+}
+.nav{
+        overflow: hidden;
+         background-color: black ;
+    }
+
+    .sag{
+        float: right;
+        width: 25%;
+        padding-left: 20px;
+    } 
+    label {
+        font-size: 1rem;
+        margin-bottom: 8px;
+          display: block;
+        background-color:lightgrey;
+         font-weight: bold;
+    }
+    .title-{
+        color: darkred;
+    }
+    .card{
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+    
+    }
+   
+    .season-img {
+        max-width: 60%; 
+        height: auto;
+        border-radius: 8px;
+      
+    }
+ 
+    button{
+        background-color:lightblue;
+        color: white;
+        border-radius: 10px;
+        padding: 10px 20px;
+        border: none;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    
+    }
+    button:hover{
+        background-color: rgb(68, 96, 117);
+        transform: scale(1.05);
+    }
+    button:active {
+        background-color: #004085;  
+        transform: scale(1); 
+    }
+    #foto:hover{
+        transform: scale(1.05);
+    
+    }
+
+    .footer{
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    @media screen and (max-width:800px){
+        .sag,.sol{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .season-img:hover{
+            transform: scale(1.15);
+        }
+        body {
+            font-size: 15px;
+          }
+          .title-{
+        font-size: 1rem;
+          }
+       h5{
+            font-size: 1rem;
+     
+         }
+        
+    
+    }
+    

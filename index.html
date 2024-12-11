@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../img/watch-movie.png" type="image/x-icon"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">   
+ <link rel = "stylesheet" href="../friends/style.css">
+    <title>FRİENDS</title>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Friends</h1>
+        <p>David Crane ve Marta Kauffman tarafından yaratılmış Amerikan yapımı sitcom türünde bir dizidir.</p>
+    </div>
+    <div class="navbar">
+        <div class="dropdown">
+         <a href="https://www.primevideo.com/region/eu/storefront" target="_blank">
+            <img src="../img/icons8-amazon-prime-video-color-48.png" alt="Prime Video">
+        </a>
+        </div>
+     </div>
+   
+        <div class="card" style="background-color: rgb(90, 90, 90); padding: 20px;">
+            <h3 class="title-text text-start">Matthew Perry (Chandler Bing)  🖤</h3>
+            <h5><i>(19 Ağustos 1969, Massachusetts - 28 Ekim 2023, Los Angeles)</i></h5>
+            <div class="card-body d-flex" style="display: flex; align-items: center; gap: 20px;">
+                <img class="season-img img-fluid" style="width: 400px; filter: brightness(0.7);" src="../img/Chandler's the best _).jpg" alt="Matthew Perry">
+                <h5 style="margin: 0;">"Sanki biri bir yıl boyunca beni takip etmiş, esprilerimi çalmış, tavırlarımı kopyalamış, dünyaya bıkkın ama esprili bakış açımın fotokopisini çekmiş gibiydi. Özellikle bir karakter dikkatimi çekti: Chandler'ı 'oynayabileceğimi' düşündüğümden değildi. Ben Chandler'dım."</h5>
+            </div>
+        </div>
+       
+        <div class="sag col-md-4 right-content">
+            <div class="card right-card" >
+                <h3 style="color: darkred;">En Sevilen Bölümler</h3>
+                <hr>
+                <ul class="list">
+                  <li><a href="#season-3" style="text-decoration: none; color: black;">3. Sezon, 2. Bölüm: The One Where No One’s Ready</a></li><hr>
+                  <li><a href="#season-4" style="text-decoration: none; color: black;">4. Sezon, 8. Bölüm: The One With Chandler in a Box</a></li><hr>
+                  <li><a href="#episode-12" style="text-decoration: none; color: black;">4. Sezon, 12. Bölüm: The One With the Embryos</a></li><hr>
+                  <li><a href="#season-5" style="text-decoration: none; color: black;">5. Sezon, 11. Bölüm: The One With All the Resolutions</a></li><hr>
+                  <li><a href="#season5-9" style="text-decoration: none; color: black;">5. Sezon, 9. Bölüm: The One With Ross’ Sandwich</a></li><hr>
+                  <li><a href="#season5-14" style="text-decoration: none; color: black;">5. Sezon, 14. Bölüm: The One Where Everybody Finds Out</a></li><hr>
+                  <li><a href="#season-6" style="text-decoration: none; color: black;">6. Sezon, 17. Bölüm: The One With Unagi</a></li><hr>
+                  <li><a href="#episode-15" style="text-decoration: none; color: black;">3. Sezon, 15. Bölüm: The One Where Ross and Rachel Take a Break</a></li><hr>
+                  <li><a href="#episode-9" style="text-decoration: none; color: black;">3. Sezon, 9. Bölüm: The One With the Football</a></li><hr>
+                </ul>
+
+            </div>
+            <div class="card right-content" style="word-wrap: break-word; height: 200;">
+                <h3 style="color: darkred;"> ♡ Hangi Friends karakterisin? ♡ </h3><br>
+                <form onsubmit="return hesaplaSonuc(event);"  class="test">
+                  
+                  <label>Seni en iyi tanımlayan özellik nedir?</label><br>
+                  <input type="radio" name="soru1" value="Chandler" > Komik<br>
+                  <input type="radio" name="soru1" value="Monica"> Düzenli<br>
+                  <input type="radio" name="soru1" value="Phoebe"> Yaratıcı<br>
+                  <input type="radio" name="soru1" value="Ross"> Bilgili<br>
+                  <input type="radio" name="soru1" value="Joey">Heyecanlı<br><br>
+              
+                  <label>Favori aktiviten hangisi?</label><br>
+                  <input type="radio" name="soru2" value="Rachel"> Alışveriş yapmak<br>
+                  <input type="radio" name="soru2" value="Joey"> Yemek yemek<br>
+                  <input type="radio" name="soru2" value="Ross"> Kitap okumak<br>
+                  <input type="radio" name="soru2" value="Phoebe"> Şarkı dinlemek<br>
+                  <input type="radio" name="soru2" value="Chandler"> Dizi izlemek<br><br>
+    
+              
+                  <label>En sevdiğin kahve hangisi?</label><br>
+                  <input type="radio" name="soru3" value="Rachel"> Latte<br>
+                  <input type="radio" name="soru3" value="Monica"> Cappuccino<br>
+                  <input type="radio" name="soru3" value="Joey"> Mocha<br>
+                  <input type="radio" name="soru3" value="Chandler"> Espresso<br><br>
+    
+                  <label>Arkadaşların seni nasıl tanımlar?</label><br>
+                  <input type="radio" name="soru4" value="Joey"> Sempatik<br>
+                  <input type="radio" name="soru4" value="Phoebe"> Eğlenceli<br>
+                  <input type="radio" name="soru4" value="Ross"> Zeki<br>
+                  <input type="radio" name="soru4" value="Monica"> Titiz<br><br>
+    
+                  <label>Eğer bir gezide olsan ve yapmış olduğun tüm planlar mahvolmuş olsa, ne yapardın?</label><br>
+                  <input type="radio" name="soru5" value="Monica">Panikler ve Her şeyi düzeltmeye çalışırdım<br>
+                  <input type="radio" name="soru5" value="Ross">Kesin bir B planım olurdu<br>
+                 <input type="radio" name="soru5" value="Joey">Her şeyi salardım. Ne derler saldım çayıra Mevlam kayıra<br><br>
+    
+                 <label>Senin için aşk ne ifade ediyor?</label><br>
+                  <input type="radio" name="soru6" value="Joey">Rutin<br>
+                  <input type="radio" name="soru6" value="Phoebe">Heyecan<br>
+                  <input type="radio" name="soru6" value="Rachel">Mutluluk<br>
+                  <input type="radio" name="soru6" value="Ross">Vazgeçilmez<br>
+                  <input type="radio" name="soru6" value="Chandler">Korku<br><br>
+    
+                  <label>Daha önce yakın bir arkadaşına duygusal bir his besledin mi?</label><br>
+                  <input type="radio" name="soru7" value="Joey"> Evet<br>
+                  <input type="radio" name="soru7" value="Phoebe"> Hayır<br><br>
+    
+                  <label>Bir arkadaşlıkta aradığın en önemli şey nedir?</label><br>
+                  <input type="radio" name="soru8" value="Rachel">Cömertlik<br>
+                  <input type="radio" name="soru8" value="Monica">Sadakat<br>
+                  <input type="radio" name="soru8" value="Phoebe">Sevgi<br>
+                  <input type="radio" name="soru8" value="Chandler">Eğlence<br><br>
+    
+                  <label> Herkesin hayatta bir amacı vardır, seninkini sorsak?</label><br>
+                  <input type="radio" name="soru9" value="Rachel">Zengin olmak<br>
+                  <input type="radio" name="soru9" value="Monica">Mutlu bir aile kurmak<br>
+                  <input type="radio" name="soru9" value="Phoebe">Bir şeyler üretmek<br>
+                  <input type="radio" name="soru9" value="Ross">Başarılı biri olmak<br><br>
+                 
+                  <label>Hepimizin yanında olmaktan mutluluk duyduğu insanlar vardır. Peki sen hangisinin yanında kendini daha iyi hissedersin?</label><br>
+                  <input type="radio" name="soru10" value="Rachel">Sevgilim<br>
+                  <input type="radio" name="soru10" value="Ross">Ailem<br>
+                  <input type="radio" name="soru10" value="Phoebe">Arkadaşlarım<br>
+                 <input type="radio" name="soru10" value="Joey">kendim :)<br><br>
+    
+                 <label>Arkadaş grubunuzdan en çok hangisine benziyorsun?</label><br>
+                  <input type="radio" name="soru11" value="Rachel">Duygusal biriyim<br>
+                  <input type="radio" name="soru11" value="Ross">Herkesi sakin, odaklanmış tutan sağduyulu biriyim<br>
+                  <input type="radio" name="soru11" value="Phoebe">Ben her zaman hazır olan eğlenceyi seven biriyim<br>
+                  <input type="radio" name="soru11" value="Chandler">Elimde her zaman espirili yorum bulunan birisiyim<br><br>            
+    
+                  <label>En çok hangi hayvana sahip olmak isterdin?</label><br>
+                  <input type="radio" name="soru12" value="Rachel">Kedi<br>
+                  <input type="radio" name="soru12" value="Ross">Maymun<br>
+                  <input type="radio" name="soru12" value="Phoebe">Köpek<br>
+                  <input type="radio" name="soru12" value="Joey">Civciv<br><br>
+    
+                  <label>Hadi bakalım bir meyve seç</label><br>
+                  <input type="radio" name="soru13" value="Rachel">Çilek<br>
+                  <input type="radio" name="soru13" value="Ross">Elma<br>
+                  <input type="radio" name="soru13" value="Phoebe">Armut<br>
+                  <input type="radio" name="soru13" value="Joey">Muz<br>
+                  <input type="radio" name="soru13" value="Monica">Kiraz<br><br>  
+    
+    
+                  <label>Pekiii en sevdiğin yemeği sorsak?</label><br>
+                  <input type="radio" name="soru14" value="Rachel">Bonfile<br>
+                  <input type="radio" name="soru14" value="Ross">Hindi Sandviç<br>
+                  <input type="radio" name="soru14" value="Phoebe">Lazanya<br>
+                  <input type="radio" name="soru14" value="Joey">Pizza<br>
+                  <input type="radio" name="soru14" value="Monica">Makarna<br><br>
+    
+                  <label>Son sorumuza geldiik.. Burcun hangisi?</label>
+                  <input type="radio" name="soru15" value="Rachel">Yay<br>
+                  <input type="radio" name="soru15" value="Monica">Başak<br>
+                  <input type="radio" name="soru15" value="Phoebe">İkizler<br>
+                  <input type="radio" name="soru15" value="Joey">Aslan<br>
+                  <input type="radio" name="soru15" value="Chandler">Yengeç<br>
+                  <input type="radio" name="soru15" value="Ross">Boğa<br>
+                  <input type="radio" name="soru15" value="Rachel">Balık<br>
+                  <input type="radio" name="soru15" value="Monica">Kova<br>
+                  <input type="radio" name="soru15" value="Ross">Oğlak<br>
+                  <input type="radio" name="soru15" value="Joey">Koç<br>
+                  <input type="radio" name="soru15" value="Phoebe">Akrep<br>
+                  <input type="radio" name="soru15" value="Chandler">Terazi<br><br>
+            
+              
+                  <button type="">Sonucu Gör</button>
+                  <div id="sonuc" style="color: darkgreen; margin-top: 20px; font-weight: bold;"></div>
+                  <div id="foto" style="margin-top: 10px; "></div>
+                  <div id="yorum" ></div>
+                </form>
+            </div>
+        
+
+        </div>
+
+
+
+    <div class="card" id="season-3">
+        <h3 class="title- text-start" >│ 3. Sezon, 2. Bölüm: The One Where No One’s Ready:</h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img " src="../img/3.sezon.jpeg" alt="3.sezon" ></div>
+            <h5>Ross çalıştığı müzede yapacağı konuşma için bütün arkadaşlarının zamanında hazır olmasını ister, ancak kimse bir türlü hazırlanamaz. Joey ve Chandler hazırlanmak yerine birbirlerinin kıyafetlerini çalarak kazananın belirsiz olduğu bir yarışın içine girer, Monica telesekreterine gelen mesaj yüzünden aklını kaçırır, Rachel ise ne giyeceğine bir türlü karar veremez.</h5>
+
+    </div>  
+               
+    <div class="card" id="episode-9">
+        <h3 class="title- text-start">│ 3. Sezon, 9. Bölüm: The One With the Football:</h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/9.bölüm.jpeg" alt="3.sezon"></div>
+            <h5>Grup, Şükran Günü’nde Amerikan futbolu oynamaya karar verir. Kimin Geller Kupası’nı kazanacağı konusunda Ross ve Monica hararetli bir çekişmenin işine girer. Joey ve Chandler ise bir mankenı tavlamak için birbirleriyle yarışır.</h5>
+        
+    </div>
+
+    <div class="card" id="episode-15">
+        <h3 class="title- text-start">│ 3. Sezon, 15. Bölüm: The One Where Ross and Rachel Take a Break:</h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/rachelross.jpeg" alt="3.sezon"></div>
+            <h5>Ross, Rachel ile kavga eder ve evi terk ederek soluğu bir partide alır. Phoebe ise bir diplomatla yemeğe çıkar ancak iletişim kurmaları için bir çevirmene ihtiyaç duyarlar.</h5>
+        
+    </div>
+
+    
+    <div class="card" id="season-4">
+        <h3 class="title- text-start">│ 4. Sezon, 8. Bölüm: The One With Chandler in a Box:</h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/4.sezon.jpeg" alt="4.sezon"></div>
+            <h5>Chandler, Kathy ile öpüştüğü için Joey’nin affını kazanmaya çalışır, ceza olarak Şükran Günü’nü tahta bir kutu içinde geçirmeyi kabul eder. Monica’nın gözüne yanlışlıkla buz girer, kontrol için göz doktoruna görünür. Monica’yı muayene eden doktorun eski sevgilisi Richard’ın oğlu olduğu ortaya çıkar.</h5>
+        
+    </div>
+       
+    <div class="card" id="episode-12">
+        <h3 class="title- text-start">│ 4. Sezon, 12. Bölüm: The One With the Embryos:</h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/12.bölüm.jpeg" alt="4.sezon"></div>
+             <h5>Chandler ve Joey, kızların çantalarının içinde neler olduğunu tahmin ederek Rachel ve Monica’yı ne kadar iyi tanıdıklarını kanıtlamaya çalışır. Bu iddia anında bir yarışa dönüşür ve bir oyun oynarlar. Kazanan büyük ve güzel evde yaşarken, kaybeden ise daha küçük evde kalacaktır.</h5>        
+    </div>
+
+    <div class="card" id="season5-9">
+        <h3 class="title- text-start">│ 5. Sezon, 9. Bölüm: The One With Ross’ Sandwich: </h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/ros.jpeg" alt="5.sezon"></div>
+            <h5>O sırada Ross’un hayatındaki tek iyi şey Şükran Günü’nden kalma sandviçidir. İş yerindeki buzdolabına koyduğu sandviçi koyduğu yerde bulamayan Ross küplere biner ve işler bir anda çığırından çıkar.</h5>
+     </div>
+
+     <div class="card" id="season-5">
+        <h3 class="title- text-start">│ 5. Sezon, 11. Bölüm: The One With All the Resolutions: </h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/season5.jpeg" alt="5.sezon"></div>
+            <h5>Bu bölümde grup, yeni yıl kararları alır ve hayatlarını değiştirmeye çalışırlar. Rachel dedikodu yapmaya ara verir, Chandler arkadaşlarıyla dalga geçmemeye çalışır. Ross’un aldığı yeni yıl karar ise yeni yılda boşanmamaktır.</h5>
+     </div>
+
+     <div class="card" id="season5-14">
+        <h3 class="title- text-start">│ 5. Sezon, 14. Bölüm: The One Where Everybody Finds Out: </h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/5-14.jpeg" alt="5.sezon"></div>
+            <h5>Monica ve Chandler sevgili olduklarını diğerlerinden saklamaya karar verirler. Ancak Phoebe, Monica ve Chandler’ın ilişkilerini öğrenir ve işin içine Rachel’ı da katarak onlara bir oyun oynar. Asıl kargaşa her iki tarafın da planlarının açığa çıkmasıyla başlar ve bu gizli oyun herkesin her şeyi itiraf etmesiyle son bulur.</h5>
+     </div>
+
+     <div class="card" id="season-6">
+        <h3 class="title- text-start">│ 6. Sezon, 17. Bölüm: The One With Unagi: </h3>
+        <div class="card-body d-flex flex-column align-items-center">
+            <img class="season-img" src="../img/unagi.jpeg" alt="6.sezon"></div>
+            <h5>Rachel ve Phoebe savunma dersleri almaya başlar. Ross, muhabbete dahil olup kendi savunma deneyimlerini aktarırken insanın her tehlikeye karşı hazır olma durumu olan “Unagi”den bahseder. Joey ise para ihtiyacını gidermek için tıbbi deneylerde yer almak ister.</h5>
+     </div>
+    </div>
+
+
+
+      
+
+        <script src="../friends/script.js"></script>
+      
+
+</body>
+</html>
