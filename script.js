@@ -50,6 +50,7 @@ console.log(karakterPuanlari)
 
     
     document.querySelector('#sonuc').innerHTML = `Senin karakterin: <strong>${enYuksekKarakter}</strong>!`;
+    window.scrollTo(0, document.querySelector("#sonuc").offsetTop - 50);
     document.querySelector('#foto').innerHTML = `<img src="${karakterFotograflari[enYuksekKarakter]}"  style="width:300px;  height:auto; border-radius: 10px; ">`;
     document.querySelector('#yorum').innerHTML = `<h4 style="color: red;">${enYuksekKarakter} gibisin !</h4><p>${karakterYorumları[enYuksekKarakter]}</p> `;
     

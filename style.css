@@ -1,5 +1,6 @@
 body{
-    background: #adb0b1;
+    background: #adb0b1; 
+      padding: 10px;
 }
 
 *{
@@ -18,11 +19,8 @@ background-color: black;
     background-color: white;
     text-align: center;
 }
-body{
-    background-color: #83979f;
-    padding: 10px;
 
-}
+
 .nav{
         overflow: hidden;
          background-color: black ;
@@ -74,12 +72,66 @@ body{
         background-color: #004085;  
         transform: scale(1); 
     }
+
+    #sonuc-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    #foto{
+    width: 200px;  height: auto; display: block;
+    margin: 20px auto;  
+     border-radius: 10px; display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 10px; 
+    }
+
     #foto:hover{
         transform: scale(1.05);
     
     }
+ .sonuç{
+    margin-top: 20px;
+    font-weight: bold;
+    color: darkred; 
+    background-color: #ddd;
+    }
 
     .footer{
+       
+        padding: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    @media screen and (max-width:800px){
+        .sag,.sol{
+            width: 100%;
+        }
+    }
+    @media screen and (max-width: 700px){
+        .season-img:hover{
+            transform: scale(1.15);
+        }
+        body {
+            font-size: 15px;
+          }
+          .title-{
+        font-size: 1rem;
+          }
+       h5{
+            font-size: 1rem;
+     
+         }
+        
+    
+    }
+   
+     .footer{
         background-color: #ddd;
         padding: 20px;
         text-align: center;
